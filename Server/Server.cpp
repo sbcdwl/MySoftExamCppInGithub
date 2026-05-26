@@ -32,7 +32,7 @@ Server::Server(const std::string& host, uint16_t port)
 	struct sockaddr_in addr;
 	addr.sin_family = AF_INET;	
 	addr.sin_port = htons(port);		//大端和小端存储，本机都是小端存储，网络上传输的为大端
-										//|1|2|,由低到高为大端存储,htons将小端转换为大端
+										//|1|2|,由低到高为大端存储,htons将小端转换为大端(host to net short)
 	inet_pton(AF_INET, host.data(), &addr.sin_addr);//IP地址
 
 
