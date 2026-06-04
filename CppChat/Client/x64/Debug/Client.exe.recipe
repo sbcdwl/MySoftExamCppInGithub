@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\CodeTest\SoftExamCpp\CppChat\Server\x64\Debug\Server.exe</FullPath>
+      <FullPath>C:\CodeTest\SoftExamCpp\CppChat\Server\x64\Debug\Client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
