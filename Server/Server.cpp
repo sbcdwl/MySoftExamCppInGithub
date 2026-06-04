@@ -35,7 +35,6 @@ Server::Server(const std::string& host, uint16_t port)
 										//|1|2|,由低到高为大端存储,htons将小端转换为大端(host to net short)
 	inet_pton(AF_INET, host.data(), &addr.sin_addr);//IP地址
 
-
 	if (bind(m_fd, (struct sockaddr*)&addr, sizeof(addr)) == SOCKET_ERROR)
 	{
 		std::cerr << "bind error" << WSAGetLastError() << std::endl;
