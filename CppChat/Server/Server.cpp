@@ -9,7 +9,7 @@ Server::Server(const std::string& host, uint16_t port)
 	, m_port(port)
 	, m_running(false)
 {	
-	//创建服务器
+	//创建服务器.
 	//1，初始化网络库
 	WSADATA data;
 	if (WSAStartup(MAKEWORD(2, 2), &data) != 0)
