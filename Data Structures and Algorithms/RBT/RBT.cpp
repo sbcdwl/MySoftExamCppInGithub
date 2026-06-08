@@ -24,7 +24,7 @@ struct RBNode {
 	RBNode* lChild;
 	RBNode* rChild;
 	RBNode* parent;
-	int key;			//节点颜色，0是黑，1是白
+	int color;			//节点颜色，0是黑，1是白
 };
 
 int main() {
