@@ -1,4 +1,5 @@
 ﻿  App.cpp
   Server.cpp
   正在生成代码...
+  LINK : 没有找到 C:\CodeTest\SoftExamCpp\CppChat\Server\x64\Debug\Server.exe 或上一个增量链接没有生成它；正在执行完全链接
   Server.vcxproj -> C:\CodeTest\SoftExamCpp\CppChat\Server\x64\Debug\Server.exe
